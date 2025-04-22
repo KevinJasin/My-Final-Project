@@ -1,0 +1,48 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node modules
+node_modules/
+
+# Vite output
+dist/
+.vite/
+
+# Server runtime files
+*.local
+
+# System junk
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+
+# Cypress (optional - keep if you use it)
+cypress/videos/
+cypress/screenshots/
+
+# Editor config
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# TypeScript cache (in case you use TS)
+*.tsbuildinfo
+
+# Optional Vite SSR output (you already had it)
+dist-ssr/
+
+# Cache (optional, if used)
+.cache/
