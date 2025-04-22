@@ -1,4 +1,5 @@
 <template>
+  <h1 class="sr-only">Algoritm – Hariduskeskus</h1>
   <header id="top"
     class="relative z-50 flex flex-col items-center w-full text-lg text-neutral-700 min-h-[900px] px-5 pt-6 md:px-20"
   >
