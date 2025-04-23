@@ -13,7 +13,7 @@
         <!-- Image shown first on mobile -->
         <div class="md:hidden mt-10 flex justify-center">
           <img
-            src="/CircleTree.png"
+            src="/CircleTree.webp"
             alt="Learning methods illustration"
             class="w-full max-w-[400px] aspect-square"
           />
@@ -31,7 +31,7 @@
       <!-- Right: Image (desktop only) -->
       <div class="hidden md:flex w-1/2 justify-end">
         <img
-          src="/CircleTree.png"
+          src="/CircleTree.webp"
           alt="Learning methods illustration"
           class="w-full max-w-[700px] aspect-square"
         />

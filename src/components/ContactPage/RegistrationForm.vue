@@ -110,7 +110,7 @@
       class="fixed inset-0 flex items-center justify-center z-50"
       @click="showPopup = false"
     >
-      <img src="/Pop-up2.png" alt="Popup Image" class="max-w-full max-h-[80vh] cursor-pointer" />
+      <img src="/Pop-up2.webp" alt="Popup Image" class="max-w-full max-h-[80vh] cursor-pointer" />
     </div>
   </section>
 </template>

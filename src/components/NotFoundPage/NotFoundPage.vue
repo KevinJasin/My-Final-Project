@@ -18,7 +18,7 @@
 
           <!-- Center Content -->
           <div class="flex flex-col items-center z-10 relative">
-            <img src="/Tree.png" alt="Tree" class="w-[180px] mb-6" />
+            <img src="/Tree.webp" alt="Tree" class="w-[180px] mb-6" />
             <h1 class="text-3xl text-black font-semibold mb-6">Lehte ei leitud</h1>
             <a
               href="/"

@@ -25,7 +25,7 @@
       <!-- Image Block (Left-Aligned) -->
       <div class="flex justify-start mt-6">
         <img
-          src="/BiggerBacteria.png"
+          src="/BiggerBacteria.webp"
           alt="Learning method illustration"
           class="object-contain w-[800px] max-md:w-[350px]"
         />

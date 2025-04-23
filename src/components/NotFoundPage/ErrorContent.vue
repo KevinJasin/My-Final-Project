@@ -7,7 +7,7 @@
     </div>
 
     <!-- Tree image -->
-    <img src="/Tree.png" alt="Tree" class="w-[160px] my-4" />
+    <img src="/Tree.webp" alt="Tree" class="w-[160px] my-4" />
 
     <!-- Bottom 404 -->
     <div class="text-[100px] font-light text-white leading-none mb-2">404</div>

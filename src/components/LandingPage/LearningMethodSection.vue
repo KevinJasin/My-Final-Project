@@ -12,7 +12,7 @@
 
       <!-- Mobile Image (Different Image File) -->
       <img
-        src="/BacteriaMobile.png"
+        src="/BacteriaMobile.webp"
         alt="Õppemeetodi illustratsioon"
         class="w-[80%] mx-auto my-6"
       />
@@ -42,7 +42,7 @@
       <div class="absolute top-[270px] inset-x-0 flex justify-center items-center z-0 pointer-events-none">
         <img
           loading="lazy"
-          src="/Bacteria.png"
+          src="/Bacteria.webp"
           alt="Bacteria"
           class="w-[800px]"
         />

@@ -5,24 +5,43 @@
   >
     <!-- Background for Desktop -->
 <img
-  src="/KuBackground.png"
+  src="/KuBackground.webp"
   alt="Desktop Background"
   class="hidden md:block absolute inset-0 w-full h-full object-cover object-center -z-10"
 />
 
+<!-- h2 two-line title under logo (desktop only) -->
+<div
+  class="hidden md:flex flex-col absolute bottom-[80px] items-center w-full text-center text-neutral-700 font-roboto"
+>
+  <span class="text-4xl leading-tight">Hariduskeskus</span>
+  <span class="text-4xl leading-tight">koolilastele</span>
+</div>
+
+
 <!-- Background for Mobile -->
 <img
-  src="/KuBackgroundMobile.png"
+  src="/KuBackgroundMobile.webp"
   alt="Mobile Background"
   class="block md:hidden absolute inset-0 w-full h-full object-cover object-top -z-10"
 />
+
+<!-- h2 two-line title under logo (mobile only) -->
+<div
+  class="md:hidden flex flex-col absolute bottom-[50px] items-center w-full text-center text-neutral-700 font-roboto"
+>
+  <span class="text-3xl leading-tight">Hariduskeskus</span>
+  <span class="text-3xl leading-tight">koolilastele</span>
+</div>
+
+
 
 
     <!-- Top Bar -->
     <div class="w-full max-w-[1600px] flex justify-between items-center">
       <!-- Logo -->
       <router-link to="/">
-        <img src="/Logo.png" alt="Company logo" class="w-[141px] object-contain" />
+        <img src="/Logo.webp" alt="Company logo" class="w-[141px] object-contain" />
       </router-link>
 
       <!-- Desktop Nav -->
@@ -62,7 +81,9 @@
       class="fixed inset-0 bg-[#eaf0f7] z-40 flex flex-col items-center justify-between py-12 px-5 text-center"
     >
       <div class="flex flex-col items-center gap-10">
-        <img src="/Logo.png" alt="Logo" class="w-[180px]" />
+        <router-link to="/" @click="closeMenu">
+         <img src="/Logo.webp" alt="Logo" class="w-[180px]" />
+        </router-link>
         <a href="#courses" @click.prevent="handleMobileScrollToCourses" class="text-xl">Kursused</a>
         <router-link to="/center" @click="closeMenu" class="text-xl">Keskusest</router-link>
         <router-link to="/contact" @click="closeMenu" class="text-xl">Kontaktid</router-link>

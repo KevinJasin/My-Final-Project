@@ -10,7 +10,7 @@
     <div class="md:hidden flex justify-center mt-6">
       <img
         loading="lazy"
-        src="/Tree.png"
+        src="/Tree.webp"
         alt="Tree illustration mobile"
         class="object-contain w-[180px]"
       />
@@ -26,7 +26,7 @@
       <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none hidden md:block">
         <img
           loading="lazy"
-          src="/Tree.png"
+          src="/Tree.webp"
           alt="Tree illustration"
           class="object-contain w-[300px]"
         />

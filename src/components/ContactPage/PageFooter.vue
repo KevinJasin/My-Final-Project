@@ -10,7 +10,7 @@
       <div class="flex-1 flex justify-start max-md:justify-center">
         <img
           loading="lazy"
-          src="/Logo.png"
+          src="/Logo.webp"
           alt="Company logo"
           class="object-contain w-[141px] cursor-pointer"
           @click="scrollToHeader"

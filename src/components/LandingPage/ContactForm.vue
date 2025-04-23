@@ -64,7 +64,7 @@
       @click="showPopup = false"
     >
       <img
-        src="/Pop-up1.png"
+        src="/Pop-up1.webp"
         alt="Popup Image"
         class="max-w-full max-h-[80vh] cursor-pointer"
       />

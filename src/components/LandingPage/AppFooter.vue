@@ -10,7 +10,7 @@
         <a href="#" @click.prevent="scrollToHeader">
         <img
           loading="lazy"
-          src="/Logo.png"
+          src="/Logo.webp"
           alt="Company logo"
           class="object-contain w-[140px] cursor-pointer"
         />

@@ -5,7 +5,7 @@
     <!-- Background image (desktop) -->
     <img
       loading="lazy"
-      src="/KeBackground.png"
+      src="/KeBackground.webp"
       alt="Background"
       class="hidden md:block absolute inset-0 w-full h-full object-cover -z-10"
     />
@@ -13,7 +13,7 @@
     <!-- Background image (mobile) -->
     <img
       loading="lazy"
-      src="/KeBackgroundMobile.png"
+      src="/KeBackgroundMobile.webp"
       alt="Mobile Background"
       class="block md:hidden absolute inset-0 w-full h-[600px] object-contain object-top -z-10"
     />
@@ -22,7 +22,7 @@
     <div class="w-full max-w-[1600px] flex justify-between items-center">
       <!-- Logo -->
       <router-link to="/">
-        <img src="/Logo.png" alt="Logo" class="w-[141px] object-contain" />
+        <img src="/Logo.webp" alt="Logo" class="w-[141px] object-contain" />
       </router-link>
 
       <!-- Desktop Navigation -->
@@ -82,7 +82,9 @@
       class="fixed inset-0 bg-[#eaf0f7] z-40 flex flex-col items-center justify-between py-12 px-5 text-center"
     >
       <div class="flex flex-col items-center gap-10">
-        <img src="/Logo.png" alt="Logo" class="w-[180px]" />
+        <router-link to="/" @click="closeMenu">
+         <img src="/Logo.webp" alt="Logo" class="w-[180px]" />
+        </router-link>
         <a href="#courses" @click.prevent="handleMobileScrollToCourses" class="text-xl">Kursused</a>
         <router-link to="/center" @click="closeMenu" class="text-xl">Keskusest</router-link>
         <router-link to="/contact" @click="closeMenu" class="text-xl">Kontaktid</router-link>
