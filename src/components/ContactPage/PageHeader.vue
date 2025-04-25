@@ -1,6 +1,6 @@
 <template>
   <header
-    class="relative z-50 flex flex-col items-center self-stretch px-5 pt-6 w-full text-lg text-neutral-700 md:min-h-[550px] md:pb-[450px] max-md:pb-24 md:px-20 max-md:max-w-full"
+    class="relative z-50 flex flex-col items-center self-stretch px-5 pt-4 w-full text-lg text-neutral-700 md:min-h-[550px] md:pb-[450px] max-md:pb-24 md:px-20 max-md:max-w-full"
   >
     <!-- Desktop background -->
     <img
@@ -19,7 +19,7 @@
     />
 
     <!-- Top bar -->
-    <div class="w-full max-w-[1600px] flex justify-between items-start pt-2 md:items-center">
+    <div class="w-full max-w-[1600px] flex justify-between items-start pt-0 md:pt-2 md:items-center">
       <!-- Logo -->
       <router-link to="/">
         <img
@@ -88,8 +88,9 @@
   </header>
 </template>
 
+
 <script>
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 
 export default {
@@ -97,6 +98,7 @@ export default {
   emits: ['scroll-to-register'],
   setup(_, { emit }) {
     const menuOpen = ref(false)
+    const isDesktop = ref(window.innerWidth >= 768)
     const router = useRouter()
 
     const toggleMenu = () => {
@@ -127,12 +129,19 @@ export default {
       emit('scroll-to-register')
     }
 
+    onMounted(() => {
+      window.addEventListener('resize', () => {
+        isDesktop.value = window.innerWidth >= 768
+      })
+    })
+
     return {
       menuOpen,
       toggleMenu,
       closeMenu,
       handleMobileScrollToCourses,
-      handleMobileRegister
+      handleMobileRegister,
+      isDesktop
     }
   }
 }

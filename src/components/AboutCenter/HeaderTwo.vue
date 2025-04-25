@@ -1,7 +1,8 @@
 <template>
   <header
-    class="relative z-50 flex flex-col items-center w-full text-lg text-neutral-700 min-h-[1180px] px-5 pt-4 md:px-20 md:min-h-[1180px] min-h-[600px]"
-  >
+  class="relative z-50 flex flex-col items-center w-full text-lg text-neutral-700 px-5 pt-4 md:px-20
+         min-h-[600px] md:min-h-[900px] lg:min-h-[1000px] xl:min-h-[1200px]"
+>
     <!-- Background image (desktop) -->
     <img
       loading="lazy"
@@ -12,11 +13,11 @@
 
     <!-- Background image (mobile) -->
     <img
-      loading="lazy"
-      src="/KeBackgroundMobile.webp"
-      alt="Mobile Background"
-      class="block md:hidden absolute inset-0 w-full h-[600px] object-contain object-top -z-10"
-    />
+  loading="lazy"
+  src="/KeBackgroundMobile.webp"
+  alt="Mobile Background"
+  class="block md:hidden absolute inset-0 w-full h-full max-h-[600px] object-cover object-top -z-10"
+/>
 
     <!-- Top Bar -->
     <div class="w-full max-w-[1600px] flex justify-between items-center">
