@@ -15,7 +15,7 @@
 
         <!-- Left: Text -->
         <div class="flex-1 flex flex-col justify-start md:justify-center md:items-start items-center text-center md:text-left">
-          <h3 class="text-6xl font-light leading-none max-md:text-4xl"></h3>
+          <h3 class="text-6xl font-light leading-none max-md:text-4xl">Diana</h3>
           <p class="mt-4 text-lg leading-tight opacity-80">
             Keskuse asutaja, matemaatika- ja eesti keele õpetaja
           </p>
@@ -25,7 +25,7 @@
         <div class="flex justify-center items-center mt-10 md:mt-0 md:ml-10">
           <div class="w-[250px] h-[250px] md:w-[400px] md:h-[400px] rounded-full overflow-hidden">
             <img
-              src=""
+              src="/Teacher.webp"
               alt=""
               class="w-full h-full object-cover"
             />

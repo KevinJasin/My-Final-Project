@@ -57,7 +57,7 @@
           <fieldset class="mt-4">
             <div class="flex flex-wrap gap-2.5 max-md:text-sm">
               <label
-                v-for="level in ['Eksami ettevalmistus', 'Edasijõudnute tase', 'Puudujääkide täitmine']"
+                v-for="level in ['Ettevalmistus eksamiks', 'Edasijõudnute tase', 'Puudujääkide täitmine']"
                 :key="level"
                 class="flex-1 px-5 py-3 border border-neutral-700 rounded-[30px] text-center cursor-pointer max-md:py-2"
                 :class="form.level === level ? 'bg-indigo-50' : ''"

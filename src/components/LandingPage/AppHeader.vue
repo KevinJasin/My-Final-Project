@@ -14,7 +14,7 @@
     <div
       class="hidden md:flex flex-col absolute bottom-[7vh] items-center w-full text-center text-neutral-700 font-roboto"
     >
-      <span class="text-4xl leading-tight">Hariduskeskus</span>
+      <span class="text-4xl leading-tight">Õppekeskus</span>
       <span class="text-4xl leading-tight">koolilastele</span>
     </div>
 
@@ -29,7 +29,7 @@
     <div
       class="md:hidden flex flex-col absolute bottom-[8vh] items-center w-full text-center text-neutral-700 font-roboto"
     >
-      <span class="text-3xl leading-tight">Hariduskeskus</span>
+      <span class="text-3xl leading-tight">Õppekeskus</span>
       <span class="text-3xl leading-tight">koolilastele</span>
     </div>
 

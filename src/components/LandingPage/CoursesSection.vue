@@ -25,7 +25,7 @@
     <div class="w-full h-px bg-neutral-700 mt-14 ml-64 max-w-[1000px] max-md:ml-0"></div>
 
     <!-- Edasijõudnud tase -->
-    <h3 class="text-6xl font-light leading-tight mt-8 ml-64 max-md:text-4xl max-md:ml-0">Edasijõudnud tase</h3>
+    <h3 class="text-6xl font-light leading-tight mt-8 ml-64 max-md:text-4xl max-md:ml-0">Edasijõudnute tase</h3>
 
     <div class="flex flex-wrap gap-10 mt-6 max-w-[1000px] text-lg ml-64 max-md:ml-0">
       <div class="flex flex-col flex-1">
