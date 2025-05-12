@@ -20,7 +20,7 @@
             v-model="form.name"
             type="text"
             placeholder="Vanema nimi"
-            class="w-full bg-transparent outline-none opacity-50"
+            class="w-full bg-transparent outline-none text-black placeholder:text-neutral-500"
             required
           />
         </div>
@@ -31,7 +31,7 @@
             v-model="form.phone"
             type="tel"
             placeholder="Vanema telefoninumber"
-            class="w-full bg-transparent outline-none opacity-50"
+            class="w-full bg-transparent outline-none text-black placeholder:text-neutral-500"
             required
           />
         </div>
@@ -42,7 +42,7 @@
             v-model="form.message"
             placeholder="Saada küsimus"
             rows="3"
-            class="w-full bg-transparent outline-none opacity-50 resize-none"
+            class="w-full bg-transparent outline-none text-black placeholder:text-neutral-500 resize-none"
             required
           ></textarea>
         </div>
@@ -89,9 +89,9 @@ export default {
   },
   methods: {
     sendEmail() {
-      const SERVICE_ID = 'service_yzmhzzh';
-      const TEMPLATE_ID = 'template_6x5u1b8';
-      const PUBLIC_KEY = 'rnNNY77LR2SHK4Zrt';
+      const SERVICE_ID = 'service_bxns0ed';
+      const TEMPLATE_ID = 'template_igit3go';
+      const PUBLIC_KEY = 'txehGjfsKnmJppcv_';
 
       emailjs
         .send(
