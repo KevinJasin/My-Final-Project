@@ -29,10 +29,6 @@
 
       <!-- Language + Button (Desktop) -->
       <div class="hidden md:flex gap-10 mt-2">
-        <div class="flex gap-1 items-center whitespace-nowrap">
-          <button class="self-stretch my-auto w-[17px] opacity-50">ru</button>
-          <button class="flex flex-col justify-center self-stretch my-auto w-4">et</button>
-        </div>
         <button
           class="bg-neutral-700 text-white px-4 py-2 rounded-full"
           @click="handleRegisterClick"
@@ -85,9 +81,6 @@
         </button>
       </div>
 
-      <div class="text-base text-neutral-500">
-        Русский язык <span class="ml-2 font-semibold text-black">Eesti keel</span>
-      </div>
     </div>
   </header>
 </template>
